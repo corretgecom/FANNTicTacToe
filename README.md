@@ -8,12 +8,16 @@ Project for *ANN Tic Tac Toe in a Symfony Console App* SymfonyCon Madrid 2014
 clone the repository an run 
 
 ```shell
-composer install
+cd srv/vagrant
+vagrant up
 ```
 
 ## Usage
 
 ```shell
+cd srv/vagrant
+vagrant ssh
+cd corretgecom
 php bin/console
 ```
 
